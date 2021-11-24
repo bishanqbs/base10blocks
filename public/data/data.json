@@ -1,0 +1,90 @@
+{
+    "language": "en",
+    "langLabels": {
+        "en": {
+            "title": "Base ten blocks tool",
+            "mode": {
+                "explore": "Explore Mode",
+                "equation": "Question Mode"
+            },
+            "showresult":"Show result",
+            "validate":"Validate",  
+            "ok":"Ok",
+            "tryagain":"Try again!",
+            "continue":"Continue",
+            "cancel":"Cancel",
+            "startover":"Start over!",
+            "column1":"Thousands",
+            "column2":"Hundreds",
+            "column3":"Tens",
+            "column4":"Ones"
+        },
+        "ar": {
+            "title": "أداة المصفوفة",
+            "mode": {
+                "explore": "وضع الاستكشاف",
+                "equation": "وضع المعادلة"
+            },
+            "showresult":"نتيجة العرض",
+            "validate":"تحقق",    
+            "ok":"نعم",
+            "tryagain":"حاول مجددا!",
+            "cancel":"يلغي",  
+            "startover":"ابدأ من جديد!",     
+            "column1":"بالآلاف",
+            "column2":"المئات",
+            "column3":"عشرات",
+            "column4":"منها"
+        }
+    },
+    "questionSet" : [  
+             
+        {
+            "mode" : "equation",            
+            "pageid": "page_1",
+            "id": "slide_1",
+            "task": {                                            
+                "quesText":{
+                    "en":"Use blocks to show 1,506.",
+                    "ar":"استخدم الكتل لإظهار 1506"
+                },
+                "ansText":"1,506",
+                "ansArr":[1,5,0,6],
+                "hint":"1,506 has a zero in the tens place.",
+                "attemptCount":2
+            },
+            "quaudio": "audios/L5GP_stop_point3.mp3",
+            "instruction":"Click on a block to add it to the chart.</br>Click on the eraser and a block in the chart to erase it."
+        },
+        
+        {
+            "mode" : "equation",            
+            "pageid": "page_2",
+            "id": "slide_2",
+            "task": {                                            
+                "quesText":{
+                    "en":"Use blocks to show 1,610.",
+                    "ar":"استخدم الكتل لإظهار 1610"
+                },
+                "ansText":"1,610",
+                "ansArr":[1,6,1,0],
+                "hint":"1,610 has a zero in the ones place.",
+                "attemptCount":2
+            },
+            "quaudio": "audios/L5GP_stop_point4.mp3",
+            "instruction":"Click on a block to add it to the chart.</br>Click on the eraser and a block in the chart to erase it."
+        },
+        {
+            "mode" : "explore",            
+            "pageid": "page_0",
+            "id": "slide_0",           
+            "task": {                                            
+                "quesText":{
+                    "en":"",
+                    "ar":""
+                },
+                "ansText":""
+            }
+        }                                                                 
+    ]
+}
